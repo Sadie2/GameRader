@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "style.css">
+    <title>GameRader</title>
+</head>
+<body class = "contactpage">
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style = "background-color: rgb(90, 185, 170);">
+        <a class="navbar-brand">GameRader</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="Index.html">Homepage</a>
+            <a class="nav-item nav-link" href="PC.html">PC review</a>
+            <a class="nav-item nav-link" href="Console.html">Console</a>
+            <a class="nav-item nav-link" href="Mobile.html">Mobile</a>
+            <a class ="nav-item nav-link" href = "Tech reviews.html">Technology Reviews</a>
+            <a class="nav-item nav-link active" href="Contact.html">Contact page<span class = "sr-only">(Current)</span></a>
+          </div>
+        </div>
+      </nav>
+  <div class = "container"><br>
+
+    <h1>Contact</h1><br>
+    <p>Hello! Please use this form below if you have any enquiries about our website, general quesions about our reviews or anything else that you would like to ask about.</p>
+
+    <div id="welcomeText">
+    <form class = "form" onsubmit="changeText()" method="post" id="welcomeForm">
+        <label>Please enter your name</label>
+        <input type = "text" placeholder = "Enter your first name.." required name="fname"><br><br>
+        <label>Please enter your email</label>
+        <input type = "email" placeholder = "Enter email.." required><br><br>
+        <label>Please enter your message below:</label><br>
+        <textarea cols = "46" rows = "10" rquired></textarea><br>
+        <input type = "submit" value = "Submit!">
+     </form> 
+   </div>
+   
+  
+  </body class = "contactpage">
+    </div>
+
+  
+      
+    <div><br>
+      <button onclick="darkmode()">Dark mode</button>
+      <button onclick = "Largetext()">Large text</button>
+      <button onclick = "Mediumtext()">Medium text</button>
+      <button onclick = "Smalltext()">Small text</button>
+       </div>
+
+
+  <script src = "main.js"></script>
+
+
+</body>
+</html>

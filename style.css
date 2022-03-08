@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+   
+}
+h3{
+    font-weight: bold;
+}
+h5{
+    color: rgb(83, 83, 83);
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contactpage{
+    background-color: rgba(221, 197, 252, 0.637)
+}
+
+
+ .form{
+    margin-left: 5cm;
+    margin-top: 2cm;
+ }
+
+
+ .dark-mode{
+     background-color: rgb(59, 59, 59);
+     color: white;
+ }
+
+ 
+.Large-text{
+    font-size:150%;
+
+}
+
+
+.Medium-text{
+    font-size: 100%;
+
+}
+
+
+.Small-text{
+    font-size: 90%;
+
+}
